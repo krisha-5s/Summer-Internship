@@ -1,0 +1,35 @@
+.container{
+     max-width: 1240px;
+    margin: 0 auto;
+    padding: 30px 25px 80px 50px;
+   box-sizing: border-box;
+}
+.heading{
+    text-align: center;
+    color: rgb(51, 51, 51);
+    padding: 18px;
+    
+}
+.btnContainer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.search input{
+ 
+    border: 1px solid rgb(172, 170, 170);
+    border-radius: 2px;
+     min-width: 180px;
+}
+.search input:focus{
+     border: 1px solid rgb(172, 170, 170);
+     border-radius: 2px;
+}
+.search input:hover{
+     border: 1px solid rgb(173, 173, 173);
+     border-radius: 2px;
+    
+}

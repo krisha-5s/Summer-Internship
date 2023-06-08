@@ -1,0 +1,104 @@
+.container{
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 30px 25px 80px 50px;
+   box-sizing: border-box;
+}
+
+.heading{
+    text-align: center;
+    color: rgb(51, 51, 51);
+    padding: 18px;
+    
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.bag {
+    font-weight: bold;
+    font-size: 20px;
+}
+.total{
+    font-size: 18px;
+    font-weight: bold;
+}
+.cartListContainer{
+margin: 1rem 0 2rem 0;
+}
+
+.item{
+    display: flex;
+    /* align-items: center; */
+    gap: 2rem;
+    border: 1px solid #b9afaf;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    padding: 10px;
+}
+.imgContainer{
+        width: 150px;
+    
+    min-height: 100px;
+}
+.itemImg{
+    width: 100%;
+    height: 100px;
+    object-fit:cover;
+}
+.itemContent{
+   flex-grow: 1;
+}
+.topContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bottomContent{
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.qty{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.qtyBtn{
+    width: 20px;
+    height: 20px;
+    outline: none;
+    border: none;
+    background-color: #f14d54;
+    color: white;
+    cursor: pointer;
+    margin: 0;
+    border-radius: 1px;
+}
+.qtyBtn:hover{
+    background-color: #d80611;
+    transition: all 0.3s ease-in-out;
+
+}
+
+p{
+    margin-top: 7px;
+}
+
+.bookTitle{
+    font-weight: bold;
+}
+.bookPrice{
+    font-weight: bold;
+}
+
+.removeLink{
+    color: #f14d54;
+    cursor: pointer;
+}

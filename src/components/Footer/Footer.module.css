@@ -1,0 +1,22 @@
+.footerContainer{
+    background-color: #f9f9f9;
+}
+.footer{
+
+    max-width: 1240px;
+    margin: 0 auto;
+    padding:49px 50px;
+}
+
+.logoContainer{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    max-width: 180px;
+    margin-bottom: 18px;
+}
+.footerText{
+    font-size: 13px;
+    color: #929292;
+    text-align: center;
+}

@@ -1,0 +1,97 @@
+.searchBarContainer{
+    background-color: #f4f4f4;
+}
+.searchContainer{
+   padding: 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.searchInput:hover{
+    border: none;
+    outline: none;
+}
+.searchBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 0;
+    padding: 8px 24px;
+    background-color: #80bf32;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.searchInput{
+    background-color:#fff;
+    height:40px;
+    border: none;
+    outline: none;
+   padding: 10px 30px;
+   min-width: 500px;
+   max-width: 600px;
+
+}
+.serachField{
+    position: relative;
+}
+input{
+    padding: 10px 30px;
+     border: 1px solid rgb(62, 60, 60);
+}
+
+.booksLists{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 41px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    border-radius: 5px;
+z-index: 10;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+li{
+    padding: 0 10px
+}
+.book{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px;
+    margin-bottom: 5px;
+}
+.book:hover{
+    background-color: #f4f4f4;
+}
+
+.noBook{
+    padding: 0 10px;
+}
+.bookLeft{
+    display: flex;
+    flex-direction: column;
+}
+.bookLeft p{
+    margin: 0;
+    color: #8f8f8f;
+}
+.bookTitle{
+    font-weight: 600;
+}
+.bookRight{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.addCart{
+    color: #f14d54;
+}
+

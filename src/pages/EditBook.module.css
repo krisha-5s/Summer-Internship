@@ -1,0 +1,48 @@
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 30px 25px 80px 50px;
+   box-sizing: border-box;
+}
+
+.heading{
+    text-align: center;
+    color: rgb(51, 51, 51);
+    padding: 18px;
+    
+}
+
+.formContainer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 3rem;
+    margin-top: 3rem;
+}
+
+.input{
+    min-width: 500px;
+}
+.description{
+     grid-column: 1 / span 2;
+}
+
+.uploadImg{
+    width: 35px;
+    height: 35px;
+}
+
+.filUpload{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.close{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btnContainer{
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+}

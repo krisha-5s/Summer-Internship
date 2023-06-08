@@ -1,0 +1,78 @@
+.card{
+    margin-top: 50px;
+  }
+.container{
+    padding: 2rem;
+    max-width: 1100px;
+    margin: 0 auto;
+    width: 100vw;
+  
+  }
+.actions{
+    margin-left: 16px;
+    padding: 0;
+}
+button{
+border-radius: 2px;
+margin-top: 40px;
+}
+
+hr{
+    color: rgb(183, 182, 182);
+}
+  .mainForm {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+    padding: 0;
+   
+  }
+
+  .registerHeader{
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .header{
+    text-align: center;
+  }
+
+  .headerPersonal{
+    font-size: 20px;
+    font-weight: bold;
+
+  }
+hr{
+  margin-top: 20px;
+}
+  .subHeader{
+    font-size: 14px;
+    color: rgb(146, 146, 146);
+  }
+
+  .loginInfo{
+    margin-top: 1rem;
+  
+  }
+
+.btnContainer{
+margin-top: 40px;
+
+}
+.loginBtn{
+  margin-top: 40px;
+  margin-left: 0;
+border-radius: 2px;
+}
+
+.inputContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 40px;
+}
+.leftContent{
+  margin-bottom: 60px;
+}
+
